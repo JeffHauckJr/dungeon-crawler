@@ -1,14 +1,36 @@
 const weapons = [
   {
+    id: 1,
     name: "sword",
-    damage: 20,
+    damage: 10,
     type: "physical",
-    hit: 16,
   },
   {
+    id: 2,
     name: "fireball",
-    damage: 25,
+    damage: 18,
     type: "spell",
-    hit: 18
+  },
+  {
+    id: 3,
+    name: "Bow",
+    damage: 10,
+    type: "ranged",  
   }
 ];
+
+
+export const armor = [
+    {
+        id: 1,
+        name: "leather",
+        hp: 15
+    },
+    {
+        id: 2,
+        name: "Plate",
+        hp: 30
+    }
+]
+
+export default weapons

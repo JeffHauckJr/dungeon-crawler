@@ -3,8 +3,8 @@ let turn;
 let player = {};
 let enemy = {};
 let winner;
-player.name = "Derek";
-enemy.name = "Shmergle";
+player.name = "John";
+enemy.name = "Jane";
 const sword = {
   name: "sword",
   damage: 20,
