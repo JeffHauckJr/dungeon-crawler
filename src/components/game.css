@@ -1,0 +1,7 @@
+.gameBoard {
+    margin-top: 100px;
+    background-color: #454444;
+    height: 600px;
+    width: 1000px;
+    border: solid 2px black;
+}

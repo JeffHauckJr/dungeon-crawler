@@ -36,8 +36,8 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <h1>Build Your Character</h1>
+    <div className="creationBox">
+      <h1 style={{margin: 0}}>Build Your Character</h1>
       <form className="createForm">
         <label>Character Name</label>
         <input

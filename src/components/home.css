@@ -7,3 +7,11 @@
 #chaName {
     width: 177px;
 }
+
+.creationBox {
+    margin-top: 50%;
+    background-color: #af091a;
+    padding: 10px;
+    border-radius: 10%;
+    border: solid 1px black;
+}

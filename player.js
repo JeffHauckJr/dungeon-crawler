@@ -5,12 +5,6 @@ let enemy = {};
 let winner;
 player.name = "John";
 enemy.name = "Jane";
-const sword = {
-  name: "sword",
-  damage: 20,
-  type: "slicing",
-  hit: 16,
-};
 
 const startFight = () => {
   //player stats

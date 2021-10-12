@@ -1,0 +1,18 @@
+body {
+  min-height: 100vh;
+  background: url("cave.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  animation: shrink 5s infinite alternate;
+
+}
+@keyframes shrink {
+    0% {
+      background-size: 110% 110%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
